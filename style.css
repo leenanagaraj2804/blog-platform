@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f8fafc;
+    color:#1e293b;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:2.2rem;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#cbd5e1;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
+}
+
+.blog-form{
+    background:white;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    margin-bottom:25px;
+}
+
+.blog-form input,
+.blog-form textarea{
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+    border:1px solid #dbeafe;
+    border-radius:10px;
+    font-size:15px;
+}
+
+.blog-form input:focus,
+.blog-form textarea:focus,
+.search-box input:focus{
+    outline:none;
+    border-color:#2563eb;
+}
+
+.blog-form textarea{
+    min-height:140px;
+    resize:vertical;
+}
+
+.blog-form button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.blog-form button:hover{
+    background:#1d4ed8;
+}
+
+.search-box{
+    margin-bottom:25px;
+}
+
+.search-box input{
+    width:100%;
+    padding:14px;
+    border:1px solid #dbeafe;
+    border-radius:10px;
+}
+
+.post{
+    background:white;
+    border-radius:16px;
+    padding:25px;
+    margin-bottom:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.post:hover{
+    transform:translateY(-3px);
+}
+
+.post h2{
+    color:#0f172a;
+    margin-bottom:10px;
+}
+
+.post small{
+    color:#64748b;
+    display:block;
+    margin-bottom:15px;
+}
+
+.post p{
+    line-height:1.7;
+    margin-bottom:15px;
+}
+
+.stats{
+    color:#64748b;
+    margin-bottom:15px;
+    font-size:14px;
+}
+
+.actions{
+    margin-bottom:15px;
+}
+
+.actions button{
+    border:none;
+    color:white;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-right:8px;
+    font-weight:500;
+}
+
+.like-btn{
+    background:#ec4899;
+}
+
+.like-btn:hover{
+    background:#db2777;
+}
+
+.edit-btn{
+    background:#f59e0b;
+}
+
+.edit-btn:hover{
+    background:#d97706;
+}
+
+.delete-btn{
+    background:#ef4444;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+}
+
+.comment-section{
+    margin-top:15px;
+    border-top:1px solid #e2e8f0;
+    padding-top:15px;
+}
+
+.comment-section input{
+    width:70%;
+    padding:10px;
+    border:1px solid #dbeafe;
+    border-radius:8px;
+}
+
+.comment-section button{
+    background:#10b981;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.comment-section button:hover{
+    background:#059669;
+}
+
+.comment-section ul{
+    margin-top:15px;
+    padding-left:0;
+}
+
+.comment-section li{
+    list-style:none;
+    background:#f1f5f9;
+    padding:10px;
+    border-radius:8px;
+    margin-bottom:8px;
+}
+
+@media(max-width:768px){
+
+    .comment-section input{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+    .comment-section button{
+        width:100%;
+    }
+
+    .actions button{
+        margin-bottom:10px;
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Platform</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Blog Platform with Comments</h1>
+    <p>Create, Share and Interact with Blog Posts</p>
+</header>
+
+<div class="container">
+
+    <div class="blog-form">
+
+        <input type="text" id="author" placeholder="Author Name">
+
+        <input type="text" id="title" placeholder="Post Title">
+
+        <textarea id="content"
+        placeholder="Write your blog post..."></textarea>
+
+        <button onclick="addPost()">Publish Post</button>
+
+    </div>
+
+    <div class="search-box">
+        <input type="text"
+        id="searchInput"
+        placeholder="Search Posts..."
+        onkeyup="searchPosts()">
+    </div>
+
+    <div id="posts"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
